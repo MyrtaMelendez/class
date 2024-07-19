@@ -108,22 +108,33 @@
 		letter-spacing: 1px;
 		font-size: 20px;
 	}
-	button{
-		width:70px;
-		height: 30px;
-		margin: auto;
-		background-color: #E8D19F ;
-		border-radius: 15px;
-		font-family: forma-djr-banner, sans-serif;
-		font-style: normal;
-		font-weight: 400;
-		font-size:16px;
-		letter-spacing: 1px;
-		
+	.button-54 {
+	  font-family: "Open Sans", sans-serif;
+	  font-size: 16px;
+	  letter-spacing: 2px;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  color: #000;
+	  cursor: pointer;
+	  border: 3px solid;
+	  padding: 0.25em 0.5em;
+	  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+	  position: relative;
+	  user-select: none;
+	  -webkit-user-select: none;
+	  touch-action: manipulation;
+	  margin: auto;
 	}
-	.cocktail{
-		margin: auto;
-		padding-top: 10px;
+
+	 .button-54:active {
+  	  box-shadow: 0px 0px 0px 0px;
+      top: 5px;
+      left: 5px;
+	}
+	 .cocktail{
+	  margin: auto;
+	  padding-top: 10px;
+	  text-align: center;
 		
 	}
 	.address{
@@ -150,11 +161,11 @@
 		margin:auto;
 		padding: 10px;	
 	}
-	@media (min-width:1000px){
+	@media (min-width:1010px){
 			body{
 			}
 			wrapper {
-			width:1000px;
+			width:1010px;
 			background-color: white;
 			}
 			.logo {
@@ -166,6 +177,8 @@
 			.footer{
 			width: 1000px;	
 			}
+			.button-54 {
+    		padding: 0.25em 0.75em;
 	}
 	</style>	
 </main>
@@ -187,15 +200,16 @@
 		  <div class="golden"><a href="https://baoshi.menu/dinein?menu=1163e654-b414-4dc4-bb4e-d42ed02e0445" target="new"><article>Golden Marquess</article></a></div>
 	
 	 </section>
-	<h2 align="center"><a href="https://www.instagram.com/explore/tags/meetmeatbaoshi/" target="new">#MeetMeAtBaoshi</a></h2> <section>
-	<div class="cocktail" align="center" ><img src="mixology-class.png" width="333"/></div>
-	<div class="cocktail" ><img src="weekly-events.png" width="333"/></div>
-	<div class="cocktail" ><img src="botanical-class.png" width="325" height="420" /></div>
+	<h2 align="center"><a href="https://www.instagram.com/explore/tags/meetmeatbaoshi/" target="new">#MeetMeAtBaoshi</a></h2> 
+	<section class="cocktail">
+	<div><img src="mixology-class.png" width="333"/></div>
+	<div class="cocktail"><img src="weekly-events.png" width="333"/></div>
+	<div class="cocktail"><img src="botanical-class.png" width="333" height="420" /></div>
 	</section><div class="address"><p>Baoshi Food Hall &amp;    Bar<br>8525 Pines Boulevard<br>Pembroke Pines FL, 33024<br>
-	 (786) 898-8868</p>
-	 </div>
-  <div class="address"><a href="hours.png" target="new"><button>Hours</button></a></div>
-	 </wrapper>
+	(786) 898-8868</p>
+	</div>
+	<div class="address"><a href="hours.png" target="new"><button class="button-54" role="button">Hours</button></a></div>
+	</wrapper>
 	<footer class="footer"><p>© 2024, Myrta Melendez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
 	
 </body>
